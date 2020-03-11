@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Futura Md BT';
+    src:url('../font/hinted-FuturaBT-Medium.eot'),
+        url('../font/hinted-FuturaBT-Medium.svg'),
+        url('../font/hinted-FuturaBT-Medium.ttf'),
+        url('../font/hinted-FuturaBT-Medium.woff'),
+        url('../font/hinted-FuturaBT-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Hv BT';
+    src:url('../font/hinted-FuturaBT-Heavy.eot'),
+        url('../font/hinted-FuturaBT-Heavy.svg'),
+        url('../font/hinted-FuturaBT-Heavy.ttf'),
+        url('../font/hinted-FuturaBT-Heavy.woff'),
+        url('../font/hinted-FuturaBT-Heavy.woff2');
+    font-weight: 900;
+    font-style: normal;
+}

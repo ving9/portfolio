@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Subway';
+    src: 
+        url('../font/hinted-Subway-Black.woff') format('woff'),
+        url('../font/hinted-Subway-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+

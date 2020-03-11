@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{font-family: "Noto Sans KR","Malgun Gothic","맑은 고딕",'Kanit',sans-serif;}
+
+/* 섹션 시작 */
+section{padding-top:50px;}
+/* 카테고리버튼 */
+section .s1_category{position: relative;}
+section .s1_category .btn_category{width:100%; display:block; background-color: #fff; border-bottom: 1px solid #e5e5e5; position: relative;}
+section .s1_category .btn_category:after{position:absolute; top:50%; margin-top:-4px; right:20px; content: ''; background: url('../images/icon_sloc_arr.png') 0 0 no-repeat; width: 12px; height: 7px; background-size: 100%;}
+section .s1_category .btn_category.on:after{transform:rotate(180deg);}
+section .s1_category .btn_category h2{height:45px; line-height:45px; text-align:center; font-size: 16px; color: #373737; font-weight: 500;}
+section .s1_category .category_list{position: absolute; left:0; top:46px; width:100%; display:none; z-index:10;}
+section .s1_category .category_list li a{display: block; text-align: center; height: 45px; line-height: 45px; border-bottom: 1px solid #e5e5e5; background-color: #f6f6f6; color: #333;}
+section .s1_category .category_list li.active a{font-weight: 700; color: #009223;}
+
+
+/* 섹션 1 */
+#section1{background:#f6f6f6;}
+#section1>p{color: #666666; font-size: 16px; line-height: 26px; text-align: center; padding: 24px 0 25px; letter-spacing: -0.05em;}
+
+#section1 ul{overflow:hidden; width:100%; text-align:center; padding-bottom:40px;}
+#section1 ul li{width:140px; height:160px; display:inline-block; margin:0 3px;} 
+#section1 ul .s1_global{background:url('../images/bg_nation.jpg')no-repeat; background-size:cover;}
+#section1 ul .s1_store{background:url('../images/bg_store.jpg')no-repeat; background-size:cover;}
+#section1 ul li p{font-size: 18px; padding: 44px 0 6px 0; color:#fff; position: relative;}
+#section1 ul li p:after{position:absolute; content:''; display:block; bottom:0; left:45px; right:45px; height:1px; background:#fff;}
+#section1 ul li span{display:block; padding-top:20px; color: #fff; }
+#section1 ul li span em{font-size: 30px; font-weight: bold; vertical-align: baseline;}

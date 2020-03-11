@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SamsungOneKorean 400';
+    src: local('SamsungOneKorean 400'), url('../font/hinted-SamsungOneKorean-400.woff'), url('../font/hinted-SamsungOneKorean-400.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean 500';
+    src: local('SamsungOneKorean 500'), url('../font/hinted-SamsungOneKorean-500.woff'), url('../font/hinted-SamsungOneKorean-500.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean 600';
+    src: local('SamsungOneKorean 600'), url('../font/hinted-SamsungOneKorean-600.woff'), url('../font/hinted-SamsungOneKorean-600.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean 300';
+    src: local('SamsungOneKorean 300'), url('../font/hinted-SamsungOneKorean-300.woff'), url('../font/hinted-SamsungOneKorean-300.woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean 200';
+    src: local('SamsungOneKorean 200'), url('../font/hinted-SamsungOneKorean-200.woff'), url('../font/hinted-SamsungOneKorean-200.woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean 700';
+    src: local('SamsungOneKorean 700'), url('../font/hinted-SamsungOneKorean-700.woff'), url('../font/hinted-SamsungOneKorean-700.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
