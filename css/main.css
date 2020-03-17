@@ -1,18 +1,14 @@
 @charset "utf-8";
 html, body {overflow-x:hidden; font-family: 'Noto Sans KR','Noto Serif KR', sans-serif; color:#291711;}
 
-/* 섹션 */
-section{height:100vh;}
-
-
 /* 섹션1 */
 #section1{background:#291711; height:100vh;}
-.s1_wrap{position: relative; top:25%; height:44%; margin:0 auto; background:url('../images/home.jpg')no-repeat center top; background-size:cover;}
-.s1_wrap .s1_cover{position:absolute; left:0; top:0; width:100%; height:100%; background:url('../images/home_cover.png')no-repeat center top; background-size:cover; animation:s1_coverOn 6s ease-in-out infinite; opacity:0.2;}
+.s1_inner{position: relative; top:25%; height:44%; margin:0 auto; background:url('../images/home.jpg')no-repeat center top; background-size:cover;}
+.s1_inner .s1_cover{position:absolute; left:0; top:0; width:100%; height:100%; background:url('../images/home_cover.png')no-repeat center top; background-size:cover; animation:s1_coverOn 6s ease-in-out infinite; opacity:0.2;}
 @keyframes s1_coverOn {0%{} 50%{opacity:1;} 100%{opacity:0.2;}}
 
-.s1_wrap h1{position: absolute; left:2%; top:30%; z-index:2; color:#e7e7e4; font-size:8vw; font-weight:600; line-height:1.1;}
-.s1_wrap p{position: absolute; right:2%; bottom:-10%; line-height:1.2; color:#e7e7e4; text-align:right; font-weight:300; font-size:12px;}
+.s1_inner h1{position: absolute; left:2%; top:30%; z-index:2; color:#e7e7e4; font-size:8vw; font-weight:600; line-height:1.1;}
+.s1_inner p{position: absolute; right:2%; bottom:-11%; line-height:1.2; color:#e7e7e4; text-align:right; font-weight:300; font-size:12px;}
 
 
 /* 섹션2 */
@@ -40,14 +36,32 @@ section{height:100vh;}
 
 
 /* 섹션3 */
-#section3{background:#e7e7e4; height:1600px;}
+#section3{background:#e7e7e4; height:1700px;}
 .s3_inner{margin:0 auto; position: relative; height:100%;}
 .s3_inner h2{position: absolute; left:5%; top:0; font-size:25vw; letter-spacing:-2px; font-family:'Bebas Neue';}
-.s3_inner img{width:100%;}
-.s3_inner .s3_works{}
+
+.s3_inner .s3_works{width:375px; margin:0 auto;}
+.s3_inner .s3_works img{width:100%;}
 .s3_inner .works01{padding-top:50px;}
 .s3_inner .s3_works .works_tit{padding:5px 10px 35px;}
 .s3_inner .s3_works .works_tit h3{font:700 20px 'Noto Sans KR';}
 .s3_inner .s3_works .works_tit p{font:400 16px 'Noto Sans KR';}
 
 .s3_inner .btn_works{display:block; margin:10px auto; width:320px; border-radius:35px; height:70px; background:#da763d;  text-align:center; font:bold 35px/75px 'Bebas Neue'; color:#291711; box-shadow:5px 5px 0 #291711;}
+
+
+/* 섹션4 */
+#section4{background:#da763d; height:560px;}
+.s4_inner{margin:0 auto; position: relative; height:100%;}
+.s4_inner h2{position: absolute; right:5%; top:-45px; font-size:25vw; letter-spacing:-5px; font-family:'Bebas Neue';}
+.s4_inner .s4_bg{position:absolute; top:25%; width:100%; height:50%; background:url('../images/home_contact.jpg')no-repeat center top; background-size:cover;}
+.s4_inner .s4_bg .s4_contact{position:absolute; left:5%; top:50%; margin-top:-70px; width:240px; height:140px; border:2px solid #291711; background:#e7e7e4; padding:10px 0 0 10px; box-sizing: border-box;}
+.s4_inner .s4_bg .s4_contact p{margin-bottom:10px; font-size:16px; font-weight:700;}
+.s4_inner .s4_bg .s4_contact .s4_list{}
+.s4_inner .s4_bg .s4_contact .s4_list li{font-weight:500; font-size:14px; color:#291711; margin:5px 0;}
+.s4_inner .s4_bg .s4_contact .s4_list li img{width:25px;}
+.s4_inner .s4_bg .s4_contact .s4_list li span{line-height:25px; padding-left:5px;}
+
+
+/* 푸터 */
+#footer{background:#291711; height:40vh;}
