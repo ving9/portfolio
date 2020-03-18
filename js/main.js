@@ -1,25 +1,17 @@
-// function inputEventInit(){
-//     ex.addEventListener('mousewheel', function(delta){
-//         if(delta.wheelDelta >= 0){
-//             console.log('+');
-//         }else{
-//             console.log('-');
-//         }
-//     });
+const 
+    btn_menu = document.querySelector('.btn_menu'),
+    modal_wrap = document.querySelector('.modal_wrap');
 
-//     ex.addEventListener('mousedown', function(event){
-//         console.log('mousedown');
-//     });
 
-//     ex.addEventListener('mouseup', function(event){
-//         console.log('mouseup');
-//     })
-// };
-
-// if(e.wheelDelta === -120){
-//     console.log('wheel down');
-//     } else {
-//     console.log('wheel up');
-//     }
+btn_menu.onclick = function() {
+    btn_menu.classList.toggle('select');
+    if (btn_menu.className === 'btn_menu') {
+        modal_wrap.style.display = "none";
+        document.body.style.overflow = "visible";
+    }else if(btn_menu.className === 'btn_menu select'){
+        modal_wrap.style.display = "flex";
+        document.body.style.overflow = "hidden";
+    };  
+};
 
 
