@@ -1,6 +1,8 @@
 const 
     btn_menu = document.querySelector('.btn_menu'),
-    modal_wrap = document.querySelector('.modal_wrap');
+    modal_wrap = document.querySelector('.modal_wrap'),
+    section4 = document.getElementById('section4'),
+    menu_contact = document.querySelector('.menu_contact');
 
 
 btn_menu.onclick = function() {
@@ -14,4 +16,13 @@ btn_menu.onclick = function() {
     };  
 };
 
+function modal_close() {
+    btn_menu.classList.remove('select');
+    modal_wrap.style.display = "none";
+    document.body.style.overflow = "visible";
+};
 
+menu_contact.onclick = function() {
+    window.scrollTo(0, section4.offsetTop);
+    modal_close();
+};
