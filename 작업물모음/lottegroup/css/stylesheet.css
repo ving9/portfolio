@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Lotte_Regular';
+    src: url('../font/hinted-Lotte_Regular.eot'),
+    url('../font/hinted-Lotte_Regular.svg'),
+    url('../font/hinted-Lotte_Regular.ttf'),
+    url('../font/hinted-Lotte_Regular.woff'),
+    url('../font/hinted-Lotte_Regular.woff2');
+    font-weight: 500;
+    font-style: normal;
+}

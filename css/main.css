@@ -1,5 +1,5 @@
 @charset "utf-8";
-body {font-family: 'Noto Sans KR','Noto Serif KR', sans-serif; color:#291711; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+body {font-family: 'Noto Sans KR','Noto Serif KR', sans-serif; color:#291711; overflow-x: hidden; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 body::-webkit-scrollbar { width: 0 !important }
 
 /* 섹션1 */

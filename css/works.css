@@ -1,0 +1,39 @@
+@charset "utf-8";
+body {font-family: 'Noto Sans KR','Noto Serif KR', sans-serif; color:#291711; overflow-x: hidden; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+body::-webkit-scrollbar { width: 0 !important }
+
+
+/* 섹션 1 */
+#section1{background:#e7e7e4; height:2400px; position: relative;}
+#section1 h1{position:absolute; left:-2%; top:-40px; font:bold 150px 'Bebas Neue'; opacity:0.3;}
+.s1_inner{padding-top:150px; width:100%;}
+.s1_inner .main_works{}
+.s1_inner .main_works h2{font:normal 100px 'Bebas Neue'; padding-left: 10px;}
+.s1_inner .main_works .s1_works{width:100%; margin-bottom:20px;}
+.s1_inner .main_works .s1_works a{display:block; width:360px; margin:0 auto;}
+.s1_inner .main_works .s1_works a img{width:100%;}
+.s1_inner .main_works .s1_works .works_text{width:360px; margin:0 auto; padding:5px 10px 30px;}
+.s1_inner .main_works .s1_works .works_text h3{font:700 20px 'Noto Sans KR';}
+.s1_inner .main_works .s1_works .works_text p{font:400 16px 'Noto Sans KR';}
+
+.s1_inner .other_works{}
+.s1_inner .other_works h3{font:normal 100px 'Bebas Neue'; padding:40px 0 0 10px;}
+.s1_inner .other_works h3 span{font:normal 60px 'Bebas Neue'; vertical-align: baseline; letter-spacing:-1px;}
+.s1_inner .other_works ul{width:360px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content: space-around;}
+.s1_inner .other_works ul li{display:inline-block; margin:5px 0;} 
+.s1_inner .other_works ul li a{}
+.s1_inner .other_works ul li a img{width:170px;}
+
+
+/* 섹션 2 */
+#section2{background:#e3d3c3; height:2000px; position: relative;}
+.s2_inner{width:100%;}
+.s2_inner h2{font:normal 100px 'Bebas Neue'; padding-left: 10px;}
+
+.s2_inner .s2_design {width:360px; margin:0 auto;}
+.s2_inner .s2_design img{width:100%;}
+.s2_inner .s2_design .slick-dots{display:flex; justify-content:center; margin-top:15px;}
+.s2_inner .s2_design .slick-dots li{margin:0 5px;}
+.s2_inner .s2_design .slick-dots li button{display:block; padding:0; margin:0; width:13px; height:13px; cursor: pointer; text-indent:-9999px; outline:none; background:none; border:2px solid #fff; border-radius:50%;}
+.s2_inner .s2_design .slick-dots .slick-active{}
+.s2_inner .s2_design .slick-dots .slick-active button{background:#fff;} 
