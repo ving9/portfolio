@@ -18,7 +18,7 @@ body::-webkit-scrollbar { width: 0 !important }
 .s2_inner{margin:0 auto; position: relative; height:100%; }
 .s2_inner img{position: absolute; left:5%; top:-40px; width:260px;}
 .s2_inner .s2_info {position:absolute; left:5%; right:5%; top:335px;}
-.s2_inner .s2_info .info_top p{font:500 15px 'Noto Sans KR'; line-height:1.4; letter-spacing: -1px; padding-left:10px; margin-bottom:50px; text-align:right;}
+.s2_inner .s2_info .info_top p{font:500 14px 'Noto Sans KR'; line-height:1.4; letter-spacing: -1px; padding-left:10px; margin-bottom:50px; text-align:right;}
 .s2_inner .s2_info .info_top p em{font-size:16px; font-weight:700; vertical-align: bottom;}
 .s2_inner .s2_info span{display:block; font:700 24px 'Noto Sans KR'; letter-spacing: -1px; margin-bottom:10px; text-align:right;}
 .s2_inner .s2_info .info_bot span{text-align:left;}
@@ -110,7 +110,7 @@ body::-webkit-scrollbar { width: 0 !important }
 
 @media (min-width:1024px) {
     .s1_inner{position: relative; top:10%; width:70%; height:75%;}
-    .s1_inner h1{position: absolute; left:-10%; top:30%; z-index:2;font-size:5vw;}
+    .s1_inner h1{position: absolute; left:-10%; top:30%; z-index:2;}
     .s1_inner p{right:0%; font-size:16px;}
 
     #section2{height:1200px;}
@@ -133,6 +133,7 @@ body::-webkit-scrollbar { width: 0 !important }
 
 
 @media (min-width:1440px) {
+    .s1_inner h1{font-size:100px}
     #section2{height:1300px;}
     #section2 h2{top:200px; font-size:250px; letter-spacing:-5px; right:19%;}
     #section2 .s2_myname{position: absolute; left:0; top:520px; color:#da763d; font-size:15vw; opacity:0.4; line-height:0.7; letter-spacing:10px; display:block; font-family:'Bebas Neue';}
@@ -141,7 +142,7 @@ body::-webkit-scrollbar { width: 0 !important }
     .s2_inner .s2_info {position:absolute; right:0; top:480px;}
     .s2_inner .s2_info .info_top p{font:500 22px 'Noto Sans KR'; line-height:1.4; letter-spacing: -1px;}
     .s2_inner .s2_info .info_top p em{font-size:24px;}
-    .s2_inner .s2_info span{font:700 36px 'Noto Sans KR';}
+    .s2_inner .s2_info span{font:700 34px 'Noto Sans KR';}
 
     #section3{height:2200px;}
     #section3 h2{font-size:250px; letter-spacing:-5px; left:19%;}
