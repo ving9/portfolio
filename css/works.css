@@ -6,17 +6,16 @@ body::-webkit-scrollbar { width: 0 !important }
 /* 섹션 1 */
 #section1{background:#e7e7e4; height:2400px; position: relative;}
 #section1 h1{position:absolute; left:-2%; top:-40px; font:bold 150px 'Bebas Neue'; opacity:0.3;}
-.s1_inner{padding-top:150px; width:100%;}
-.s1_inner .main_works{}
+.s1_inner{padding-top:150px; width:100%; margin:0 auto;}
 .s1_inner .main_works h2{font:normal 100px 'Bebas Neue'; padding-left: 10px;}
-.s1_inner .main_works .s1_works{width:100%; margin-bottom:20px;}
-.s1_inner .main_works .s1_works a{display:block; width:360px; margin:0 auto;}
+.s1_inner .main_works .s1_works{width:360px; margin:0 auto 20px;}
+.s1_inner .main_works .s1_works a{display:block; width:360px;}
 .s1_inner .main_works .s1_works a img{width:100%;}
-.s1_inner .main_works .s1_works .works_text{width:360px; margin:0 auto; padding:5px 10px 30px;}
+.s1_inner .main_works .s1_works .works_text{padding:5px 10px 30px;}
 .s1_inner .main_works .s1_works .works_text h3{font:700 20px 'Noto Sans KR';}
 .s1_inner .main_works .s1_works .works_text p{font:400 16px 'Noto Sans KR';}
 
-.s1_inner .other_works{}
+
 .s1_inner .other_works h3{font:normal 100px 'Bebas Neue'; padding:40px 0 0 10px;}
 .s1_inner .other_works h3 span{font:normal 60px 'Bebas Neue'; vertical-align: baseline; letter-spacing:-1px;}
 .s1_inner .other_works ul{width:360px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content: space-around;}
@@ -30,7 +29,7 @@ body::-webkit-scrollbar { width: 0 !important }
 
 /* 섹션 2 */
 #section2{background:#e3d3c3; height:1200px; position: relative;}
-.s2_inner{width:100%; padding-top:60px;}
+.s2_inner{width:100%; padding-top:60px; margin:0 auto;}
 .s2_inner .design h2{font:normal 100px 'Bebas Neue'; padding-left: 10px;}
 
 .s2_inner .s2_design {width:360px; margin:0 auto; position: relative;}
@@ -76,5 +75,47 @@ body::-webkit-scrollbar { width: 0 !important }
     .s2_inner .s2_design .slick-dots,.s2_inner .s2_video .slick-dots{margin-top:30px;}
     .s2_inner .design_cover li p{text-align: left; color:#fff; margin-top:2%; font-size:18px;}
     .s2_inner .design_cover li img{width:500px;}
+    #section2{height:1300px;}
+}
 
+@media (min-width:1024px) {
+    #section1 {height:2900px;}
+    #section1 h1{position:absolute; left:-2%; top:-100px; font:bold 300px 'Bebas Neue'; opacity:0.3;}
+    .s1_inner{padding-top:250px; width:1024px;}
+    .s1_inner .main_works h2{font:normal 150px 'Bebas Neue'; padding-left: 25px;}
+    .s1_inner .main_works .s1_works{display:flex; width:100%; margin-bottom:100px;}
+    .s1_inner .main_works .s1_works a{width:400px;}
+    .s1_inner .main_works .works02{flex-direction: row-reverse;}
+    .s1_inner .main_works .works02 .works_text{text-align:right;}
+    .s1_inner .main_works .s1_works .works_text{display:flex; flex-direction: column; justify-content: flex-end; padding:0 30px 10px;}
+    .s1_inner .main_works .s1_works .works_text h3{font:700 22px 'Noto Sans KR';}
+    .s1_inner .main_works .s1_works .works_text p{font:400 18px 'Noto Sans KR';}
+    .s1_inner .other_works h3{font:normal 150px 'Bebas Neue'; padding:40px 0 0 10px;}
+    .s1_inner .other_works h3 span{font:normal 110px 'Bebas Neue'; vertical-align: baseline; letter-spacing:-1px;}
+    .s1_inner .other_works ul{width:650px;}
+    .s1_inner .other_works ul li{margin:10px 0;} 
+    .s1_inner .other_works ul li a img{width:300px;}
+
+    #section2{height:1450px;}
+    .s2_inner{width:1024px;}
+    .s2_inner .design h2{font:normal 150px 'Bebas Neue'; padding-left: 25px;}
+    .s2_inner .video h2{font:normal 150px 'Bebas Neue'; padding-left: 25px;}
+   
+}
+
+@media (min-width:1440px) {
+    #section1 {height:3400px;}
+    #section1 h1{position:absolute; left:-2%; top:-130px; font:bold 400px 'Bebas Neue'; opacity:0.3;}
+    .s1_inner{padding-top:350px; width:1200px;}
+    .s1_inner .main_works h2{font:normal 200px 'Bebas Neue'; margin-left:-100px; padding:0;}
+    .s1_inner .main_works .s1_works a{width:500px;}
+    .s1_inner .other_works h3{font:normal 200px 'Bebas Neue'; margin-left:-100px; padding:40px 0 0 0;}
+    .s1_inner .other_works h3 span{font:normal 110px 'Bebas Neue'; vertical-align: baseline; letter-spacing:-1px;}
+
+    #section2 {height:1600px;}
+    .s2_inner{width:1200px;}
+    .s2_inner .design h2{font:normal 200px 'Bebas Neue'; padding-left:0; margin-left:-100px;}
+    .s2_inner .video h2{font:normal 200px 'Bebas Neue'; padding-left:0; margin-left:-100px;}
+
+    
 }
