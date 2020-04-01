@@ -30,16 +30,17 @@ menu_contact.onclick = function() {
 
 window.addEventListener('scroll', function() {
     if (window.pageYOffset > document.body.offsetHeight*0.7) {
-        btn_pageup.style.opacity=1
+        btn_pageup.style.opacity=1;
+        btn_pageup.style.transform="scale(1)";
     }else {
-        btn_pageup.style.opacity=0
-    }
+        btn_pageup.style.opacity=0;
+        btn_pageup.style.transform="scale(0)"
+    };
 });
 
 btn_pageup.onclick = function() {
     window.scroll({
         top: 0,
-        left: 0,
         behavior: 'smooth'
     });
 }
