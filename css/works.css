@@ -4,7 +4,7 @@ body::-webkit-scrollbar { width: 0 !important }
 
 
 /* 섹션 1 */
-#section1{background:#e7e7e4; height:2400px; position: relative;}
+#section1{background:#e7e7e4; height:2550px; position: relative;}
 #section1 h1{position:absolute; left:-2%; top:-40px; font:bold 150px 'Bebas Neue'; opacity:0.3;}
 .s1_inner{padding-top:150px; width:100%; margin:0 auto;}
 .s1_inner .main_works h2{font:normal 100px 'Bebas Neue'; padding-left: 10px;}
@@ -79,7 +79,7 @@ body::-webkit-scrollbar { width: 0 !important }
 }
 
 @media (min-width:1024px) {
-    #section1 {height:2900px;}
+    #section1 {height:2800px;}
     #section1 h1{position:absolute; left:-2%; top:-100px; font:bold 300px 'Bebas Neue'; opacity:0.3;}
     .s1_inner{padding-top:250px; width:1024px;}
     .s1_inner .main_works h2{font:normal 150px 'Bebas Neue'; padding-left: 25px;}
@@ -104,7 +104,7 @@ body::-webkit-scrollbar { width: 0 !important }
 }
 
 @media (min-width:1440px) {
-    #section1 {height:3400px;}
+    #section1 {height:3300px;}
     #section1 h1{position:absolute; left:-2%; top:-130px; font:bold 400px 'Bebas Neue'; opacity:0.3;}
     .s1_inner{padding-top:350px; width:1200px;}
     .s1_inner .main_works h2{font:normal 200px 'Bebas Neue'; margin-left:-100px; padding:0;}
